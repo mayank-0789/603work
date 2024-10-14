@@ -1,10 +1,5 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
-import facebookIcon from "./images/facebook.svg"
-import instagramIcon from "./images/instagram.svg"
-import twitterIcon from "./images/twitter.svg"
-import youtubeIcon from "./images/youtube.svg"
-import mapsIcon from "./images/maps.svg"
 import Navbar from "./Navbar";
 const Home = () => {
   return (
@@ -396,8 +391,8 @@ const Home = () => {
                         Main Office
                       </p>
                       <h3 className="card-title title-2 text-center">
-                        Main Office is the place which has to be designed to its
-                        best.
+                        The Main Office is the Place Which has to be designed to
+                        its best.
                       </h3>
                     </div>
                   </div>
@@ -426,10 +421,10 @@ const Home = () => {
                     </div>
                     <div className="card-content">
                       <p className="card-subtitle label-2 text-center">
-                        Main Cabinet
+                        Main Cabinete
                       </p>
                       <h3 className="card-title title-2 text-center">
-                        Main Cabinet is the place for best productive work.
+                        Cabinait is the place for best productive work.
                       </h3>
                     </div>
                   </div>
@@ -458,7 +453,7 @@ const Home = () => {
                     </div>
                     <div className="card-content">
                       <p className="card-subtitle label-2 text-center">
-                        Main Center
+                        Main Centre
                       </p>
                       <h3 className="card-title title-2 text-center">
                         Main Center is the place for best productive work.
@@ -500,33 +495,6 @@ const Home = () => {
           <div className="footer-content">
             <div className="footer-top grid-list">
               <div className="footer-brand has-before has-after">
-                <ul className="footer-list">
-                  <li>
-                    <a href="#" className="label-2 footer-link hover-underline">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="label-2 footer-link hover-underline">
-                      Menus
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="label-2 footer-link hover-underline">
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="label-2 footer-link hover-underline">
-                      Our Chefs
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="label-2 footer-link hover-underline">
-                      Contact
-                    </a>
-                  </li>
-                </ul> 
                 <a href="#" className="logo">
                   <img
                     src="./images/603logo (1).avif"
@@ -577,36 +545,8 @@ const Home = () => {
                     </span>
                   </button>
                 </form>
-                <ul className="footer-list">
-                  <p className="title-1">Follow us on: </p>
-                  <li>
-                    <a href="https://www.facebook.com/" className="label-2 footer-link">
-                      <img className="img-height" src={facebookIcon} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/603thecoworkingspace/" className="label-2 footer-link">
-                      <img className="img-height" src={instagramIcon} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://x.com/603coworking" className="label-2 footer-link">
-                      <img className="img-height" src={twitterIcon} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/" className="label-2 footer-link">
-                      <img className="img-height" src={youtubeIcon} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.google.com/maps" className="label-2 footer-link">
-                      <img className="img-height map" src={mapsIcon} />
-                    </a>
-                  </li>
-                </ul>
               </div>
-              {/* <ul className="footer-list">
+              <ul className="footer-list">
                 <li>
                   <a href="#" className="label-2 footer-link hover-underline">
                     Home
@@ -618,9 +558,8 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#about" class="label-2 footer-link hover-underline">
-                    <div class="separator"></div>
-                    <span class="span">About Us</span>
+                  <a href="#" className="label-2 footer-link hover-underline">
+                    About Us
                   </a>
                 </li>
                 <li>
@@ -656,14 +595,11 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://www.google.com/maps/place/Makhija+Arcade,+35th+Rd,+Khar,+Khar+West,+Mumbai,+Maharashtra+400052/@19.0651497,72.8325179,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7c91140262913:0xc53b6407e4d39f76!8m2!3d19.0651497!4d72.8350928!16s%2Fg%2F12hkbx6fn?entry=ttu&g_ep=EgoyMDI0MTAwNy4xIKXMDSoASAFQAw%3D%3D"
-                    className="label-2 footer-link hover-underline"
-                  >
+                  <a href="#" className="label-2 footer-link hover-underline">
                     Google Map
                   </a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
             <div className="footer-bottom">
               <p className="copyright">
